@@ -1,0 +1,112 @@
+*{
+	padding: opx;
+	margin: opx;
+}
+.a{
+	background-color: #E1E4E9;
+	height: 600px;
+	width: 650px;
+	margin: auto;
+
+}
+.a h1{
+	text-align: center;
+}
+.a hr{
+	
+	width: 60px;
+}
+.a .b .one hr:nth-child(5){
+	width: 100%;
+	background-color: lightgrey;
+
+}
+.a .b .one hr:nth-child(7){
+	width: 100%;
+	background-color: lightgrey;
+	border-color: #B8BBCO;
+}
+.a .b .two hr:nth-child(5){
+	width: 100%;
+	background-color: lightgrey;
+}
+.a .b .two hr:nth-child(7){
+	width: 100%;
+	
+	background-color: lightgrey;
+}
+.a .b .three hr:nth-child(5){
+	width: 100%;
+	background-color: lightgrey;
+
+	}
+	.a .b .three hr:nth-child(7){
+	width: 100%;
+	background-color: lightgrey;
+}
+.a .b .one{
+	background-color: white;
+	width: 200px;
+	height: 400px;
+	text-align: center;
+	display: inline-block;
+	margin: 10px;
+	margin-top: 40px;
+	box-shadow: 12px grey;
+}
+ .a .b p{
+ font-size: 15px;
+ color: grey;
+	
+
+}
+
+.a .b .two{
+	background-color: white;
+	width: 200px;
+	height: 400px;
+	text-align: center;
+	display: inline-block;
+	margin-top: 40px;
+}
+.a .b span{
+	color: navy;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.a .b .three span{
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.a .b .three{
+	background-color: #003169;
+	width: 200px;
+	height: 400px;
+	margin-top: 40px;
+	text-align: center;
+	margin: 10px;
+	display: inline-block;
+}
+.a .b .three input[type=submit]{
+	background-color: White;
+	color:black;
+	font-weight: bold;
+    margin-top: 20px;
+    padding: 10px;
+	
+}
+.a .b  input[type=submit]{
+	background-color:#003169; 
+	color:white;
+	font-weight: bold;
+    margin-top: 20px;
+    padding: 10px;
+	
+}
+.a .b .three:hover{
+	background-color: linen;
+	transform: scale(1.2);
+}

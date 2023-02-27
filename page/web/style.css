@@ -1,0 +1,96 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+.a{
+	background-color: gray;
+	height: 700px;
+	width: 1200px;
+	margin: auto;
+	position: relative;
+}
+.a .b{
+	background-color: white; 
+	height:500px;  
+	width: 900px;
+	margin: auto;
+	position: absolute;
+	top:0px;
+	left:0px;
+	right:0px;
+	bottom:0px;
+	margin: auto;
+}
+.a .b .c{
+
+	height: 440px;
+	width: 850px;
+	margin: auto; 
+	margin-top: 30px;
+	position: relative;
+}
+.a .b .c .one{
+	background-color: #FABB22;
+	height: 200px;
+	width: 460px;
+	position: absolute;
+	top:240px;
+	left:0px;
+	bottom:0px;
+	margin: auto;
+	z-index: 1;
+}
+.a .b .c .two{
+	background-color: #FABB22;
+	height: 200px;
+	width: 460px;
+	position: absolute;
+	top:0px;
+	right:0px;
+	bottom:240px;
+	margin: auto;
+	z-index: 2;
+}
+.a .b .c .mid{
+	background-color:white;
+	height: 400px;
+	width: 660px;
+	position: absolute;
+	top:0px;
+	right:0px;
+	bottom:0px;
+	left: 0px;
+	margin: auto;
+	box-shadow: -1px 1px 10px 1px gray;
+	z-index: 3;
+
+}
+.a .b .c .mid h2{
+	text-align: center;
+	margin-top: 30px;
+
+}
+.a .b .c .mid input{
+	border: none;
+	border-bottom: 2px solid black;
+	width: 540px;
+	margin-left: 60px;
+	font-size: 10px;
+	margin-bottom: 10px; 
+}
+.a .b .c .mid img{
+	margin-left: 30px;
+}
+.a .b .c .mid p{
+	margin-left: 60px;
+
+}
+.a .b .c .mid input[type=button]{
+	background-color: #FABB22;
+	width: 100px;
+	height: 20px;
+	margin-left: 250px;
+	border-right: 12px 12px 0px 0px;
+	margin-top: 0px;
+	border: none;
+}
